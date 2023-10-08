@@ -24,6 +24,10 @@ userlog.html: Page for uploading images, and accessing disease name and remedies
 2. Log in using your credentials on the userlog.html page.
 3. Upload an image of a tomato leaf to detect diseases.
 4. View personalized features and results on the same page.
+## Contact
+For any inquiries or assistance, please feel free to contact me via email at nirajccs1999@gmail.com.
+
+## Results
 
 
 <img width="946" alt="bacterial91" src="https://github.com/nirajccs1999/Tomato_leaf_disease_detection/assets/121447767/e4fcd8ea-5dbb-4500-b26f-76b3bd74a1b0">
