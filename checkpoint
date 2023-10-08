@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Niraj Kumar\\Desktop\\tomato_Leaf_disease_detection\\healthyvsunhealthynew-0.001-2conv-basic.model"
+all_model_checkpoint_paths: "C:\\Users\\Niraj Kumar\\Desktop\\tomato_Leaf_disease_detection\\healthyvsunhealthynew-0.001-2conv-basic.model"
