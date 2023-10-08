@@ -13,10 +13,7 @@ from flask import Flask, render_template, url_for, request
 import sqlite3
 import cv2
 import shutil
-'''from twilio.rest import Client
-account_sid="AC13850fdcb414ba181d34f624508017f4"
-auth_token="acea2e33048df838baa56278367e92fe"
-client=Client(account_sid, auth_token)'''
+
 
 
 app = Flask(__name__)
@@ -180,10 +177,7 @@ def image():
                     "Do not compost them.", 
                     "Rotate your tomato plants yearly to prevent re-infection next year.", 
                     "Use copper fungicites"]
-                    '''client.api.account.messages.create(
-                                                to="+91-9199533162",
-                                                from_="+17262043352",
-                                                body="bacterial")'''
+                    
                     
                 elif str_label == 'curl virus':
                     diseasename = "Yellow leaf curl virus "
@@ -194,10 +188,7 @@ def image():
                     "Use sticky yellow plastic traps.", 
                     "Spray insecticides such as organophosphates", 
                     "carbametes during the seedliing stage.", "Use copper fungicites"]
-                    '''client.api.account.messages.create(
-                        to="+91-9199533162",
-                        from_="+17262043352",
-                        body="curl_virus" )'''
+                   
                     
                 elif str_label == 'Spectoria':
                     diseasename = "Spectoria "
@@ -209,19 +200,13 @@ def image():
                     "Spray insecticides such as organophosphates",
                     "carbametes during the seedliing stage.",
                     "Use copper fungicites"]
-                    '''client.api.account.messages.create(
-                        to="+91-9199533162",
-                        from_="+17262043352",
-                        body="Spectoria")'''
+            
                     
                 elif str_label == 'Healthy':
                     status= 'Healthy'
                     print("The predicted image of the Healthy is with a accuracy of {} %".format(model_out[0]*100))
                     accuracy="The predicted image of the Healthy is with a accuracy of {}%".format(model_out[0]*100)
-                    '''client.api.account.messages.create(
-                        to="+91-9199533162",
-                        from_="+17262043352",
-                        body="Healthy")'''
+           
                     
                 elif str_label == 'Leafmold':
                     diseasename = "Leafmold"
@@ -231,10 +216,7 @@ def image():
                     rem1 = [" Monitor the field, remove and destroy infected leaves.",
                     "Treat organically with copper spray.",
                     "Use chemical fungicides,the best of which for tomatoes is chlorothalonil."]
-                    '''client.api.account.messages.create(
-                        to="+91-9199533162",
-                        from_="+17262043352",
-                        body="Leafmold")'''
+       
                     
                 elif str_label == 'mosaic_virus':
                     diseasename = "mosaic_virus"
@@ -246,10 +228,7 @@ def image():
                     "Spray insecticides such as organophosphates",
                     "carbametes during the seedliing stage.",
                     "Use copper fungicites"]
-                    '''client.api.account.messages.create(
-                        to="+91-9199533162",
-                        from_="+17262043352",
-                        body="mosaic_virus")'''
+          
 
             
 
