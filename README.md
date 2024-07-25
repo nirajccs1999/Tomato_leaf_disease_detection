@@ -8,7 +8,7 @@ Download the dataset here ('https://www.kaggle.com/datasets/nirajkumar9649/tomat
 cnn.py: Contains the CNN model architecture for tomato leaf disease detection.
 app.py: Implements a Flask web application for user interaction and displaying results.
 
-##HTML Pages
+## HTML Pages
 index.html: Main page for general interaction with the tomato leaf disease detection system.
 userlog.html: Page for uploading images, and accessing disease name and remedies.
 
